@@ -7,7 +7,7 @@
         <mxCell id="Yx1r9xGc4Te5kbXB9CK3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-1" target="Yx1r9xGc4Te5kbXB9CK3-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-1" value="三维底图流程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-1" value="三维模型展示流程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="50" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yx1r9xGc4Te5kbXB9CK3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-2" target="Yx1r9xGc4Te5kbXB9CK3-3">
@@ -65,8 +65,71 @@
         <mxCell id="Yx1r9xGc4Te5kbXB9CK3-11" value="单击3D按钮，进入三维页面" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="240" y="470" width="230" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-12" target="Yx1r9xGc4Te5kbXB9CK3-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Yx1r9xGc4Te5kbXB9CK3-12" value="渲染对应模型" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="240" y="560" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-19" target="Yx1r9xGc4Te5kbXB9CK3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-19" value="鼠标左键点击模型部件" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="660" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-21" target="Yx1r9xGc4Te5kbXB9CK3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-21" value="获取对应部件id(三维模型中独有的，不与二维图层有关联)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-22" target="Yx1r9xGc4Te5kbXB9CK3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-22" value="根据id调用三维模型部件属性接口" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="820" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-23" target="Yx1r9xGc4Te5kbXB9CK3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-23" target="Yx1r9xGc4Te5kbXB9CK3-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-23" value="接口查询成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="930" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-24" target="Yx1r9xGc4Te5kbXB9CK3-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-24" value="控制台输出报错信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1030" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-25" target="Yx1r9xGc4Te5kbXB9CK3-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-25" value="弹窗组件显示部件信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1030" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-28" target="Yx1r9xGc4Te5kbXB9CK3-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-28" value="弹窗组件显示部件信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1150" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-29" target="Yx1r9xGc4Te5kbXB9CK3-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-29" value="点击历史轨迹按钮" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1240" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yx1r9xGc4Te5kbXB9CK3-30" target="Yx1r9xGc4Te5kbXB9CK3-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-30" value="通过接口查询历史轨迹数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1320" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx1r9xGc4Te5kbXB9CK3-31" value="解析历史轨迹数据，打开历史轨迹组件，渲染历史轨迹" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1400" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
