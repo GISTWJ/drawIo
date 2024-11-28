@@ -1,9 +1,52 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="第 1 页" id="LN683AWVAwY5ZpCAd4-F">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-1" value="进入系统" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-2" value="初始化影像底图、面板组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-3" value="点击上传Ply文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-4" value="报错" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="500" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugY4xFRAZvGxjDhzhw9B-6" target="ugY4xFRAZvGxjDhzhw9B-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-6" value="触发analysisPly的webwork" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="520" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-7" value="获取ply文件的ASCLL编码文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="330" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ugY4xFRAZvGxjDhzhw9B-8" target="ugY4xFRAZvGxjDhzhw9B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-11" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugY4xFRAZvGxjDhzhw9B-9">
+          <mxGeometry x="0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ugY4xFRAZvGxjDhzhw9B-8" target="ugY4xFRAZvGxjDhzhw9B-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-8" value="判断编码文件是否是PLY类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="246" y="410" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-14" value="调用analysisPly.js中方法来解析ply文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="585" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugY4xFRAZvGxjDhzhw9B-15" value="获取到pos,opac,color,cov3ds等等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247" y="680" width="244" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
